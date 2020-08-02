@@ -94,7 +94,8 @@ point 1
 select * from items where price >= 1000000;
 point 2
 select * from items where name = "gadget";
-c. 
+c. Menampilkan data items join dengan kategori
+select * from items inner join categories on items.category_id = categories.id;
 
 
 Soal 5
